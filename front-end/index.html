@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" async></script>
+    <script src="./api/api2.js" async></script>
+    <title>Vizualizar Usuario</title>
+</head>
+<body>
+        <select name="" id="selecao">
+            <option value="vcpf">cpf</option>
+            <option value="vnome">nome</option>
+            <option value="vemail">email</option>
+        </select>
+        <br>
+            <label for="info">Buscar:</label>
+            <br>
+            <input type="text" id="info" class="info" style="color: black;">
+            <br>
+            <br>
+            <button id="deletar">Deletar</button>
+            <button id="editar">editar</button>
+            <button id="buscar">Buscar</button>
+            <button><a href="html/cadastrar.html">Cadastrar</a></button>
+       
+
+        
+          <div>
+            <h4>Nome:</h4>
+            <p id="vnome"></p>
+            <h4>Email:</h4>
+            <p id="vemail"></p>
+            <h4>Cpf:</h4>
+            <p id="vcpf"></p>
+          </div>
+</body>
+</html>
