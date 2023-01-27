@@ -105,7 +105,7 @@ deletar.addEventListener('click', () => {
         icon: "warning",
         buttons:[true, "Confirmar"],
     }).then(result => {
-        if (result) {
+        if (result) { 
             fetch(`http://localhost:3000/users/${id}`, {
             method:"DELETE"
         }).then(res => {
